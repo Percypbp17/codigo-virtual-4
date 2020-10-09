@@ -1,0 +1,60 @@
+/*nth-child- onebedece a una pocision*/
+
+body {
+    background: gray;
+    font-family: 'Chilanka', cursive;
+}
+
+body section h2 {
+    background: greenyellow;
+    color: teal;
+    font-family: 'Chilanka', cursive;
+    font-size: 40px;
+}
+
+ol {
+    font-size: 28px;
+    background-color: lightcyan;
+}
+
+li:nth-child(3) {
+    color: blue;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: salmon;
+}
+
+table {
+    width: 1280px;
+    height: 720px;
+    border-width: 22px;
+    border-color: skyblue;
+    text-align: center;
+    font-size: 36px;
+    f font-style: oblique;
+    font-variant: small-caps;
+}
+
+thead th {
+    background: pink;
+}
+
+
+/*odd --- even*/
+
+tbody tr:nth-child(odd) {
+    background: purple;
+}
+
+tbody tr:nth-child(even) {
+    background: red;
+}
+
+tbody tr td:nth-child(3) {
+    background: gray;
+}

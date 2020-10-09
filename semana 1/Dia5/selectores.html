@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        body {
+            background: violet;
+        }
+        
+        p {
+            color: magenta;
+        }
+        
+        p {
+            color: blue;
+        }
+        /* se sobreeescribe hacia abajo */
+        /* nO ES RECOMENDABLE LLAMAR ID EN MI HOJA DE ESTILOS*/
+        
+        #parrafo1 {
+            color: cornflowerblue;
+        }
+        
+        .titulos {
+            color: chartreuse;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Selectores</h1>
+
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Selectores Id</h2>
+            <p id="parrafo1">Soy un parrafo</p>
+            <p>soy otro parrafo ? ?</p>
+            <p>Soy el ultimo parrafo</p>
+        </section>
+        <section>
+
+            <h2>Selectores por clases</h2>
+            <h3 class="titulos">Primera Clases</h3>
+            <h3 class="titulos">segunda clases</h3>
+            <h4 class="titulos">tercera clases</h4>
+        </section>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+body {
+    color: white;
+}
+
+header {
+    background: tomato;
+}
+
+nav {
+    background: orange;
+}
+
+section {
+    background: yellowgreen;
+}
+
+section>article {
+    color: green;
+}
+
+aside {
+    background: blue;
+}
+
+footer {
+    background: blueviolet;
+}

@@ -23,7 +23,7 @@
                     <label for="">Edad :</label>
                 </td>
                 <td>
-                    <input type="number" placeholder="numeores" required>
+                    <input type="number" placeholder="numeores" required min="0" max="99">
                 </td>
                 <tr>
                     <td>
@@ -83,7 +83,7 @@
                         <label for="contraseña">Contraseña</label>
                     </td>
                     <td>
-                        <input type="password" id="contraseña">
+                        <input type="password" id="contraseña" minlength="6" maxlength="12">
                     </td>
                     <tr>
                         <td>
@@ -115,11 +115,19 @@
                     </tr>
                     <tr>
                         <td>
+                            <label for="">Registarme</label>
+                        </td>
+                        <input type="submit" value="Registrarme">
+                    </tr>
+
+                    <tr>
+                        <td>
                             <label for="subir archivo">upload document</label>
                         </td>
                         <td>
                             <input type="file" id="subir archivo">
                         </td>
+
 
                     </tr>
 
