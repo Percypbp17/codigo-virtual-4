@@ -1,0 +1,26 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        border: 0;
+    }
+    
+    body {
+        background-color: #b4eeea;
+    }
+    
+    .formulario {
+        width: 500px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 50px;
+        background: #b4eeea;
+        box-shadow: 20px 20px 60px #99cac7, -20px -20px 60px #cfffff;
+    }
+    
+    .formulario__input,
+    .formulario__mensaje {
+        width: 100%;
+        border-radius: 73px;
+        background: #55ddd4;
+        box-shadow: inset 31px 31px 61px #368b86, inset -31px -31px 61px #74ffff;
+    }

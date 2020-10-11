@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/*Selecciona a todos elelemntos del dom*/
+
+
+/*noafecten en su tamañano establecido*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Poppins, sans-serif;
     background-color: #555;
@@ -19,8 +31,37 @@ header {
 .main {
     background-color: #aaa;
     width: 1200px;
+    padding-bottom: 40px;
 }
 
-footer p {
+footer {
+    background-color: #333;
     text-align: center;
+    /*padding: 100px;*/
+    margin: 100px 300px 300px 300px;
+    padding: 50px 50px 50px 50px;
+}
+
+.main_imagenes {
+    height: 100px;
+    /*controla el desborde de los hijos de un elemento*/
+    /*overflow: hidden; */
+    /*overflow-y: scroll; */
+    overflow-x: scroll;
+}
+
+.main_descripcion {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin-bottom: 21px;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.main__articulos {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    background-color: plum;
 }

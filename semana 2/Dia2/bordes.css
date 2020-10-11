@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.formulario {
+    border: 2px solid rgb(76, 5, 190);
+    width: 500px;
+    height: 300px;
+    margin: 25px auto;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.formulario__submit {
+    border: none;
+    background-color: royalblue;
+    padding: 12px;
+    border-radius: 3px;
+    margin-top: 4px;
+    /*colocar borde solo abajo*/
+    border: 5px solid rgb(76, 5, 180);
+}
+
+.formulario__input {
+    background-color: rgba(0, 40, 250, 0.3);
+    padding: 5px 30px 5px 30px;
+    width: 100%;
+    /*outlune es un segundo borde exterior sin embargo no es tomado en cuenta paracalcular el ancho y alto de un elemento*/
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid skyblue;
+    background-image: url(./Vector.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center left;
+}
+
+.formulario__mensaje {
+    width: 100%;
+    background-color: #fcf6ff;
+    margin-top: 8px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
