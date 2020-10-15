@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 500px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    background: url(https://www.maeeel.com/wp-content/uploads/2020/01/amazing-animal-beautiful-beautifull.jpg);
+    /*background: -webkit-linear-gradient(top left, #44aa99, #88aa44, #aa8800);*/
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

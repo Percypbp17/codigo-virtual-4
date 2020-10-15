@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 400px;
+    display: flex;
+    border: 1px solid blue;
+    /*Justify content añinea los elementos en el eje princupal */
+    /*center- space-between- space-around, space-evenly*/
+    justify-content: space-evenly;
+    /*Align Intems alinea los elemntos en el eje secundario*/
+    /*flex-end, center, fex-start*/
+    align-items: flex-end;
+}
+
+.main__formulario {
+    width: 600px;
+    border: 1px solid red;
+}

@@ -1,0 +1,81 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .card {
+        width: 100px;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        box-shadow: #aaa 0px 0px 10px;
+        animation: mover 1s ease-in-out 1s infinite normal none;
+    }
+    
+    @keyframes mover {
+        0% {
+            background-color: #fff;
+        }
+        25% {
+            background-color: blueviolet;
+            transform: rotate(360deg);
+        }
+        50% {
+            background-color: rgb(115, 58, 248);
+            transform: scale(1.05, 1.05);
+        }
+        100% {
+            background-color: #fff;
+            transform: scale(0.7, 0.7);
+        }
+    }
+    
+    .boton {
+        padding: 5px 10px;
+        border: none;
+        background-color: #410467;
+        color: white;
+        margin-left: 20px;
+        border-radius: 3px;
+        width: 100px;
+        transition: border-left 2s ease;
+    }
+    
+    .boton:hover {
+        /*border-left: 500px solid #883db6;*/
+        box-shadow: #883db6 100px 0px inset;
+    }
+    
+    .contenedor {
+        margin-top: 40px;
+        padding: 5px 10px;
+        background-color: #410467;
+        color: white;
+        margin-left: 30px;
+        border-radius: 3px;
+        width: 100px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    
+    .contenedor:hover .contenedor__frame {
+        left: 0;
+    }
+    
+    .contenedor__frame {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: -100px;
+        background: rgba(139, 77, 177, 0.3);
+        transition: left 1s ease-in-out;
+    }
