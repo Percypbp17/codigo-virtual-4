@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: khaki;
+}
+
+
+/*AGREGANDO MEDIA QUERY*/
+
+
+/*
+1.DEBEN SER ORDENADO EN OFRMA DESCEDENTE, LAS RESOLUCIONES MAS GRANDES PRIMERO */
+
+
+/*A CONTINUACION VEREMOS UNA SERIE DE REGLAS QUE SE APLICARAN CUANDO LA RESOLUCION SEA DE 1024PX O MENOR
+ES LO MISMO DECIR QUE EL VIEWPORT SEA DE 1024 O MENOR*/
+
+@media (max-width: 1024px) {
+    body {
+        background-color: lawngreen;
+    }
+}
+
+
+/*ESTA REGLA SERA PARA COLOCAR ESTILOS CUANDO EL VIEWPORT SEA MENOR O IGUAL A 768PX*/
+
+@media(max-width:768px) {
+    body {
+        background-color: lightblue;
+    }
+}

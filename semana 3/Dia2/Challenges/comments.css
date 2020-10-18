@@ -1,0 +1,46 @@
+.comments {
+    max-width: var(--width);
+    margin: 0 auto;
+    display: flex;
+    background-image: url(./images/bg-quotes.png);
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+.comment {
+    height: 220px;
+    flex: 1;
+    margin: 1.5rem;
+    background-color: var(--dark-blue-4);
+    border-radius: 0.6rem;
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comment__text {
+    line-height: 1.7rem;
+    color: #eee;
+}
+
+.comment__figure img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comment__avatar {
+    display: flex;
+}
+
+.comment__info {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.comment__job {
+    font: 0.8rem;
+    color: #bbb4b4;
+}

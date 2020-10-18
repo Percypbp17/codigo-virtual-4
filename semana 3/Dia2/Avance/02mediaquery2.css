@@ -1,0 +1,56 @@
+                        * {
+                        box-sizing: border-box;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    
+                    .html {
+                        font-size: 16px;
+                    }
+                    
+                    .header {
+                        height: 3.5rem;
+                        background-color: lightslategrey;
+                    }
+                    
+                    .main {
+                        display: flex;
+                        min-height: calc(100vh - 3.75rem);
+                        flex-wrap: wrap;
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        background-color: rgb(233, 233, 173);
+                    }
+                    
+                    .section-left {
+                        width: 50%;
+                        height: 200px;
+                        background-color: skyblue;
+                    }
+                    
+                    .section-right {
+                        width: 50%;
+                        height: 200px;
+                        background-color: tan;
+                    }
+                    
+                    .section-3 {
+                        width: 100%;
+                        /* height: 500px; */
+                        background-color: brown;
+                    }
+                    /*ANCHO DE TABLET*/
+                    
+                    @media (max-width: 1024px) {
+                        .main {
+                            flex-direction: column;
+                        }
+                        .section-left,
+                        .section-right {
+                            width: 100%;
+                        }
+                        @media (max-width: 768px) {
+                            .section-right {
+                                display: none;
+                            }
+                        }

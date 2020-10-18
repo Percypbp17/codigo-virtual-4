@@ -1,0 +1,30 @@
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features__card {
+    width: 50%;
+    text-align: center;
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center; */
+    align-items: center;
+}
+
+.features__img {
+    margin-bottom: 2rem;
+}
+
+.features__title {
+    margin-bottom: 1.5rem;
+}
+
+.features__text {
+    width: 85%;
+    color: #ddd;
+    font-size: 1.2rem;
+}
